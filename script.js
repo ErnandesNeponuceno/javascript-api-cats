@@ -11,7 +11,7 @@ const getCats = async () => {
 };
 
 const loadImg = async () => {
-	const img = document.getElementsById('cat');
+	const img = document.getElementById('cat');
 	img.src = await getCats();
 };
 
